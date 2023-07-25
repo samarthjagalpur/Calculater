@@ -12,12 +12,13 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resister"
+        android:text="Register"
         android:textSize="40dp"
+        android:fontFamily="sans-serif-thin"
         android:textStyle="bold"
         android:textAlignment="center"
         android:layout_marginTop="-10dp"
-        android:textColor="#9122F3"/>
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/username"
@@ -58,11 +59,12 @@
         android:id="@+id/buttonresister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resister"
+        android:text="Register"
         android:layout_marginTop="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:textSize="22dp"
+        android:backgroundTint="@color/black"
         android:textStyle="bold"
         app:cornerRadius="5dp"
         />
@@ -74,8 +76,8 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="50dp"
-
-        android:text="Existing User! Go to sign in page"
+        android:backgroundTint="@color/black"
+        android:text="Already have account! Click here"
         android:textSize="22dp"
         android:textStyle="bold"
         app:cornerRadius="5dp" />
